@@ -26,7 +26,7 @@ pipeline {
             }
         }
     }
-e    post {
+    post {
         failure {
             sendFailureAlert('team@example.com')
         }
